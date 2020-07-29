@@ -1,0 +1,106 @@
+{
+  "uid" : "fbafd885f9c395cb",
+  "name" : "test_login01[tianmeng-123456]",
+  "fullName" : "test_case.test_cases.TestCase#test_login01",
+  "historyId" : "702359648250d6a978f2ea477aea838e",
+  "time" : {
+    "start" : 1596045080051,
+    "stop" : 1596045084557,
+    "duration" : 4506
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1596045049209,
+      "stop" : 1596045049209,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "820ed63f327c8f4b",
+      "name" : "log",
+      "source" : "820ed63f327c8f4b.txt",
+      "type" : "text/plain",
+      "size" : 804
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1596045085824,
+      "stop" : 1596045086440,
+      "duration" : 616
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-JHEF7VRV"
+  }, {
+    "name" : "thread",
+    "value" : "6712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "123456"
+  }, {
+    "name" : "username",
+    "value" : "'tianmeng'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbafd885f9c395cb.json",
+  "parameterValues" : [ "123456", "'tianmeng'" ]
+}

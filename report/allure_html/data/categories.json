@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False == True\n +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000002537F886648>>()\n +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000002537F886648>> = <page_object.login.Login object at 0x000002537F886648>.assert_txt\n +      where <page_object.login.Login object at 0x000002537F886648> = <test_case.test_cases.TestCase object at 0x000002537F8B9288>.lp",
+      "children" : [ {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "6c07a013bc7c249",
+        "parentUid" : "a173f0b00506c518125844a50c087055",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596046724875,
+          "stop" : 1596046734593,
+          "duration" : 9718
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      } ],
+      "uid" : "a173f0b00506c518125844a50c087055"
+    }, {
+      "name" : "AssertionError: assert False == True\n +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000002537F88DA88>>()\n +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000002537F88DA88>> = <page_object.login.Login object at 0x000002537F88DA88>.assert_txt\n +      where <page_object.login.Login object at 0x000002537F88DA88> = <test_case.test_cases.TestCase object at 0x000002537F88AD88>.lp",
+      "children" : [ {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "feb6cdde6a17f51b",
+        "parentUid" : "260e0f1c4ae58541ca055c2462f4703f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596046746543,
+          "stop" : 1596046756182,
+          "duration" : 9639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      } ],
+      "uid" : "260e0f1c4ae58541ca055c2462f4703f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

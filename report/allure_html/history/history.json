@@ -1,0 +1,42 @@
+{
+  "0408f369437a0f3d11c966563b8d1002" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c07a013bc7c249",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000002537F886648>>()\n +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000002537F886648>> = <page_object.login.Login object at 0x000002537F886648>.assert_txt\n +      where <page_object.login.Login object at 0x000002537F886648> = <test_case.test_cases.TestCase object at 0x000002537F8B9288>.lp",
+      "time" : {
+        "start" : 1596046724875,
+        "stop" : 1596046734593,
+        "duration" : 9718
+      }
+    } ]
+  },
+  "702359648250d6a978f2ea477aea838e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "feb6cdde6a17f51b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000002537F88DA88>>()\n +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000002537F88DA88>> = <page_object.login.Login object at 0x000002537F88DA88>.assert_txt\n +      where <page_object.login.Login object at 0x000002537F88DA88> = <test_case.test_cases.TestCase object at 0x000002537F88AD88>.lp",
+      "time" : {
+        "start" : 1596046746543,
+        "stop" : 1596046756182,
+        "duration" : 9639
+      }
+    } ]
+  }
+}

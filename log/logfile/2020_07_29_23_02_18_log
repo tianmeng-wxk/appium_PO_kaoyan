@@ -1,0 +1,8 @@
+2020-07-29 23:02:18 test_cases.py INFO setup
+2020-07-29 23:02:29 test_cases.py INFO 开始登录
+2020-07-29 23:02:44 login.py INFO 未找到元素
+2020-07-29 23:02:44 test_cases.py INFO teardown
+2020-07-29 23:02:45 test_cases.py INFO setup
+2020-07-29 23:02:55 test_cases.py INFO 开始登录
+2020-07-29 23:03:00 login.py INFO 找到元素，元素的文本为：验证失败次数过多，请15分钟后再试
+2020-07-29 23:03:00 test_cases.py INFO teardown

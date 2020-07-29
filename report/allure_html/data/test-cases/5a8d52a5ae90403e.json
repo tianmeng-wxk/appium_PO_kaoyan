@@ -1,0 +1,80 @@
+{
+  "uid" : "5a8d52a5ae90403e",
+  "name" : "test_login01[小可爱-trr123456]",
+  "fullName" : "test_case.test_cases.TestCase#test_login01",
+  "historyId" : "0408f369437a0f3d11c966563b8d1002",
+  "time" : {
+    "start" : 1596042864270,
+    "stop" : 1596042873917,
+    "duration" : 9647
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000001D000E71B08>>()\n +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000001D000E71B08>> = <page_object.login.Login object at 0x000001D000E71B08>.assert_txt\n +      where <page_object.login.Login object at 0x000001D000E71B08> = <test_case.test_cases.TestCase object at 0x000001D000EA8348>.lp",
+  "statusTrace" : "self = <test_case.test_cases.TestCase object at 0x000001D000EA8348>\nusername = '小可爱', password = 'trr123456'\n\n    @pytest.mark.parametrize('username,password', data)\n    def test_login01(self,username,password):\n        self.lp.login(username, password)\n>       assert self.lp.assert_txt() == True\nE       assert False == True\nE        +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000001D000E71B08>>()\nE        +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000001D000E71B08>> = <page_object.login.Login object at 0x000001D000E71B08>.assert_txt\nE        +      where <page_object.login.Login object at 0x000001D000E71B08> = <test_case.test_cases.TestCase object at 0x000001D000EA8348>.lp\n\n..\\test_case\\test_cases.py:33: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000001D000E71B08>>()\n +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000001D000E71B08>> = <page_object.login.Login object at 0x000001D000E71B08>.assert_txt\n +      where <page_object.login.Login object at 0x000001D000E71B08> = <test_case.test_cases.TestCase object at 0x000001D000EA8348>.lp",
+    "statusTrace" : "self = <test_case.test_cases.TestCase object at 0x000001D000EA8348>\nusername = '小可爱', password = 'trr123456'\n\n    @pytest.mark.parametrize('username,password', data)\n    def test_login01(self,username,password):\n        self.lp.login(username, password)\n>       assert self.lp.assert_txt() == True\nE       assert False == True\nE        +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000001D000E71B08>>()\nE        +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000001D000E71B08>> = <page_object.login.Login object at 0x000001D000E71B08>.assert_txt\nE        +      where <page_object.login.Login object at 0x000001D000E71B08> = <test_case.test_cases.TestCase object at 0x000001D000EA8348>.lp\n\n..\\test_case\\test_cases.py:33: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "944acd2e8a25a3c0",
+      "name" : "log",
+      "source" : "944acd2e8a25a3c0.txt",
+      "type" : "text/plain",
+      "size" : 570
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-JHEF7VRV"
+  }, {
+    "name" : "thread",
+    "value" : "14636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'trr123456'"
+  }, {
+    "name" : "username",
+    "value" : "'小可爱'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a8d52a5ae90403e.json",
+  "parameterValues" : [ "'trr123456'", "'小可爱'" ]
+}

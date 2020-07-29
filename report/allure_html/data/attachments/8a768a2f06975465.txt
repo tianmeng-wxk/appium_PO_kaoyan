@@ -1,0 +1,13 @@
+INFO     logger:test_cases.py:9 开始执行前置条件setup
+INFO     logger:test_cases.py:10 正在打开app...
+INFO     logger:common.py:20 检查是否有取消按钮
+INFO     logger:common.py:26 点击取消按钮
+INFO     logger:common.py:30 检查是否有跳过按钮
+INFO     logger:common.py:37 点击跳过按钮
+INFO     logger:login.py:18 开始登录
+INFO     logger:login.py:22 结束登录
+INFO     logger:login.py:36 断言失败，未找到断言元素
+INFO     logger:test_cases.py:15 开始执行后置条件teardown
+INFO     logger:test_cases.py:16 关闭app
+INFO     logger:test_cases.py:23 执行类的后置条件teardown_class
+INFO     logger:common.py:68 发送邮件成功

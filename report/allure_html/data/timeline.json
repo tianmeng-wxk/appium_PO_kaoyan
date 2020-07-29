@@ -1,0 +1,429 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LAPTOP-JHEF7VRV",
+    "children" : [ {
+      "name" : "10496-MainThread",
+      "children" : [ {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "ab30c7c1a0584ddb",
+        "parentUid" : "b9cbc631b01d1b29fcad6def89e4e227",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596038805297,
+          "stop" : 1596038819833,
+          "duration" : 14536
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      }, {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "502a37b48d8e6fa7",
+        "parentUid" : "b9cbc631b01d1b29fcad6def89e4e227",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596038831389,
+          "stop" : 1596038841062,
+          "duration" : 9673
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      } ],
+      "uid" : "b9cbc631b01d1b29fcad6def89e4e227"
+    }, {
+      "name" : "6712-MainThread",
+      "children" : [ {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "fbafd885f9c395cb",
+        "parentUid" : "880adc558dfa9fa937c052dc8c59865e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596045080051,
+          "stop" : 1596045084557,
+          "duration" : 4506
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      }, {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "362c5714b22c4bcb",
+        "parentUid" : "880adc558dfa9fa937c052dc8c59865e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596045060489,
+          "stop" : 1596045068248,
+          "duration" : 7759
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      } ],
+      "uid" : "880adc558dfa9fa937c052dc8c59865e"
+    }, {
+      "name" : "12040-MainThread",
+      "children" : [ {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "3202957edf68e674",
+        "parentUid" : "2ced0e24dbd61e07663dc5118128904e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596043439062,
+          "stop" : 1596043448540,
+          "duration" : 9478
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      }, {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "bb3fdc215ac4ed2d",
+        "parentUid" : "2ced0e24dbd61e07663dc5118128904e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596043459987,
+          "stop" : 1596043469636,
+          "duration" : 9649
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      } ],
+      "uid" : "2ced0e24dbd61e07663dc5118128904e"
+    }, {
+      "name" : "16400-MainThread",
+      "children" : [ {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "c889afd69fd3d133",
+        "parentUid" : "803eebb7fabd7451ec05e85b5dbebbc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596045284628,
+          "stop" : 1596045288981,
+          "duration" : 4353
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      }, {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "9082f1c912bb81ea",
+        "parentUid" : "803eebb7fabd7451ec05e85b5dbebbc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596045300501,
+          "stop" : 1596045304987,
+          "duration" : 4486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      } ],
+      "uid" : "803eebb7fabd7451ec05e85b5dbebbc8"
+    }, {
+      "name" : "14636-MainThread",
+      "children" : [ {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "5a8d52a5ae90403e",
+        "parentUid" : "8dae1020b1be658a65e30da01593aa30",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596042864270,
+          "stop" : 1596042873917,
+          "duration" : 9647
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      }, {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "79e4990ae8321cd3",
+        "parentUid" : "8dae1020b1be658a65e30da01593aa30",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596042885357,
+          "stop" : 1596042895094,
+          "duration" : 9737
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      } ],
+      "uid" : "8dae1020b1be658a65e30da01593aa30"
+    }, {
+      "name" : "16560-MainThread",
+      "children" : [ {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "951007ad343f9050",
+        "parentUid" : "12a4516dfc504305c61c2522f0ac2c1b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596044166160,
+          "stop" : 1596044170620,
+          "duration" : 4460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      }, {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "763621ba81e1245f",
+        "parentUid" : "12a4516dfc504305c61c2522f0ac2c1b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596044182026,
+          "stop" : 1596044186528,
+          "duration" : 4502
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      } ],
+      "uid" : "12a4516dfc504305c61c2522f0ac2c1b"
+    }, {
+      "name" : "17760-MainThread",
+      "children" : [ {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "442c6bad45a1379a",
+        "parentUid" : "346ef87dc5297963af8ab49f25d30e4b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596046157031,
+          "stop" : 1596046166578,
+          "duration" : 9547
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      }, {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "9bbcfb86aa79b4c4",
+        "parentUid" : "346ef87dc5297963af8ab49f25d30e4b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596046135497,
+          "stop" : 1596046145137,
+          "duration" : 9640
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      } ],
+      "uid" : "346ef87dc5297963af8ab49f25d30e4b"
+    }, {
+      "name" : "5776-MainThread",
+      "children" : [ {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "49ab68c78a7ad591",
+        "parentUid" : "f0c273707650edf9268d60ad8dfddb9a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596038665923,
+          "stop" : 1596038675642,
+          "duration" : 9719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      }, {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "334120a5a0380de8",
+        "parentUid" : "f0c273707650edf9268d60ad8dfddb9a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596038644679,
+          "stop" : 1596038654506,
+          "duration" : 9827
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      } ],
+      "uid" : "f0c273707650edf9268d60ad8dfddb9a"
+    }, {
+      "name" : "17004-MainThread",
+      "children" : [ {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "feb6cdde6a17f51b",
+        "parentUid" : "9a06b38b9f9bdfb13861e76831f3c1c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596046746543,
+          "stop" : 1596046756182,
+          "duration" : 9639
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      }, {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "6c07a013bc7c249",
+        "parentUid" : "9a06b38b9f9bdfb13861e76831f3c1c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596046724875,
+          "stop" : 1596046734593,
+          "duration" : 9718
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      } ],
+      "uid" : "9a06b38b9f9bdfb13861e76831f3c1c3"
+    }, {
+      "name" : "8612-MainThread",
+      "children" : [ {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "657747022c710922",
+        "parentUid" : "40c9489d8810caf6d52c304b1ad990dd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596043581575,
+          "stop" : 1596043591195,
+          "duration" : 9620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      }, {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "f76d43c08ab9b863",
+        "parentUid" : "40c9489d8810caf6d52c304b1ad990dd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596043603247,
+          "stop" : 1596043612801,
+          "duration" : 9554
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      } ],
+      "uid" : "40c9489d8810caf6d52c304b1ad990dd"
+    }, {
+      "name" : "6380-MainThread",
+      "children" : [ {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "9079257da5075465",
+        "parentUid" : "29366ceb151d52b7dbc30119a28f8696",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596038023240,
+          "stop" : 1596038029032,
+          "duration" : 5792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      }, {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "1a0c23bd88b0a467",
+        "parentUid" : "29366ceb151d52b7dbc30119a28f8696",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596038041074,
+          "stop" : 1596038045470,
+          "duration" : 4396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      } ],
+      "uid" : "29366ceb151d52b7dbc30119a28f8696"
+    }, {
+      "name" : "1508-MainThread",
+      "children" : [ {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "b9fc155ccba4ee7e",
+        "parentUid" : "cb2959e0521cd26131b60ea9fb720330",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596038381279,
+          "stop" : 1596038385691,
+          "duration" : 4412
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      }, {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "4beac496e8236917",
+        "parentUid" : "cb2959e0521cd26131b60ea9fb720330",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596038397145,
+          "stop" : 1596038401583,
+          "duration" : 4438
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      } ],
+      "uid" : "cb2959e0521cd26131b60ea9fb720330"
+    }, {
+      "name" : "17344-MainThread",
+      "children" : [ {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "74c4ef539b0dc742",
+        "parentUid" : "526388221178f29fa52ca4e8b8977e79",
+        "status" : "broken",
+        "time" : {
+          "start" : 1596044308518,
+          "stop" : 1596044313007,
+          "duration" : 4489
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      }, {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "ed880262857ebac9",
+        "parentUid" : "526388221178f29fa52ca4e8b8977e79",
+        "status" : "passed",
+        "time" : {
+          "start" : 1596044292492,
+          "stop" : 1596044297000,
+          "duration" : 4508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      } ],
+      "uid" : "526388221178f29fa52ca4e8b8977e79"
+    }, {
+      "name" : "7144-MainThread",
+      "children" : [ {
+        "name" : "test_login01[tianmeng-123456]",
+        "uid" : "48a4103399603084",
+        "parentUid" : "5f53fcb1b3b2420861ba613bc885be73",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596042444675,
+          "stop" : 1596042454284,
+          "duration" : 9609
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "123456", "'tianmeng'" ]
+      }, {
+        "name" : "test_login01[小可爱-trr123456]",
+        "uid" : "577b22cedba15cff",
+        "parentUid" : "5f53fcb1b3b2420861ba613bc885be73",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596042422689,
+          "stop" : 1596042432397,
+          "duration" : 9708
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'trr123456'", "'小可爱'" ]
+      } ],
+      "uid" : "5f53fcb1b3b2420861ba613bc885be73"
+    } ],
+    "uid" : "29ae25de2b22ec7ac71077264a732e77"
+  } ]
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "feb6cdde6a17f51b",
+  "name" : "test_login01[tianmeng-123456]",
+  "time" : {
+    "start" : 1596046746543,
+    "stop" : 1596046756182,
+    "duration" : 9639
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c07a013bc7c249",
+  "name" : "test_login01[小可爱-trr123456]",
+  "time" : {
+    "start" : 1596046724875,
+    "stop" : 1596046734593,
+    "duration" : 9718
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

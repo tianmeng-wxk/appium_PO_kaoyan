@@ -1,0 +1,110 @@
+{
+  "uid" : "9bbcfb86aa79b4c4",
+  "name" : "test_login01[小可爱-trr123456]",
+  "fullName" : "test_case.test_cases.TestCase#test_login01",
+  "historyId" : "0408f369437a0f3d11c966563b8d1002",
+  "time" : {
+    "start" : 1596046135497,
+    "stop" : 1596046145137,
+    "duration" : 9640
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000001CD770C1808>>()\n +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000001CD770C1808>> = <page_object.login.Login object at 0x000001CD770C1808>.assert_txt\n +      where <page_object.login.Login object at 0x000001CD770C1808> = <test_case.test_cases.TestCase object at 0x000001CD770C9188>.lp",
+  "statusTrace" : "self = <test_case.test_cases.TestCase object at 0x000001CD770C9188>\nusername = '小可爱', password = 'trr123456'\n\n    @pytest.mark.parametrize('username,password', data)\n    def test_login01(self,username,password):\n        self.lp.login(username, password)\n>       assert self.lp.assert_txt() == True\nE       assert False == True\nE        +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000001CD770C1808>>()\nE        +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000001CD770C1808>> = <page_object.login.Login object at 0x000001CD770C1808>.assert_txt\nE        +      where <page_object.login.Login object at 0x000001CD770C1808> = <test_case.test_cases.TestCase object at 0x000001CD770C9188>.lp\n\n..\\test_case\\test_cases.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1596046123233,
+      "stop" : 1596046123234,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000001CD770C1808>>()\n +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000001CD770C1808>> = <page_object.login.Login object at 0x000001CD770C1808>.assert_txt\n +      where <page_object.login.Login object at 0x000001CD770C1808> = <test_case.test_cases.TestCase object at 0x000001CD770C9188>.lp",
+    "statusTrace" : "self = <test_case.test_cases.TestCase object at 0x000001CD770C9188>\nusername = '小可爱', password = 'trr123456'\n\n    @pytest.mark.parametrize('username,password', data)\n    def test_login01(self,username,password):\n        self.lp.login(username, password)\n>       assert self.lp.assert_txt() == True\nE       assert False == True\nE        +  where False = <bound method Login.assert_txt of <page_object.login.Login object at 0x000001CD770C1808>>()\nE        +    where <bound method Login.assert_txt of <page_object.login.Login object at 0x000001CD770C1808>> = <page_object.login.Login object at 0x000001CD770C1808>.assert_txt\nE        +      where <page_object.login.Login object at 0x000001CD770C1808> = <test_case.test_cases.TestCase object at 0x000001CD770C9188>.lp\n\n..\\test_case\\test_cases.py:34: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b457c4057edbbf22",
+      "name" : "log",
+      "source" : "b457c4057edbbf22.txt",
+      "type" : "text/plain",
+      "size" : 639
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1596046167845,
+      "stop" : 1596046168701,
+      "duration" : 856
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_cases"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-JHEF7VRV"
+  }, {
+    "name" : "thread",
+    "value" : "17760-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_cases"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "password",
+    "value" : "'trr123456'"
+  }, {
+    "name" : "username",
+    "value" : "'小可爱'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9bbcfb86aa79b4c4.json",
+  "parameterValues" : [ "'trr123456'", "'小可爱'" ]
+}

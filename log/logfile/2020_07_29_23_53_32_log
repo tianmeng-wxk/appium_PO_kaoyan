@@ -1,0 +1,16 @@
+2020-07-29 23:53:32 test_cases.py INFO setup
+2020-07-29 23:53:43 test_cases.py INFO 开始登录
+2020-07-29 23:53:43 common.py INFO 检查是否有取消按钮
+2020-07-29 23:53:45 common.py INFO 点击取消按钮
+2020-07-29 23:53:45 common.py INFO 检查是否有跳过按钮
+2020-07-29 23:53:45 common.py INFO 点击跳过按钮
+2020-07-29 23:53:49 login.py INFO 找到断言元素，元素的文本为：验证失败次数过多，请15分钟后再试
+2020-07-29 23:53:49 test_cases.py INFO teardown
+2020-07-29 23:53:50 test_cases.py INFO setup
+2020-07-29 23:54:01 test_cases.py INFO 开始登录
+2020-07-29 23:54:01 common.py INFO 检查是否有取消按钮
+2020-07-29 23:54:01 common.py INFO 点击取消按钮
+2020-07-29 23:54:01 common.py INFO 检查是否有跳过按钮
+2020-07-29 23:54:02 common.py INFO 点击跳过按钮
+2020-07-29 23:54:05 login.py INFO 找到断言元素，元素的文本为：验证失败次数过多，请15分钟后再试
+2020-07-29 23:54:05 test_cases.py INFO teardown

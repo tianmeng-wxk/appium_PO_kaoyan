@@ -1,0 +1,8 @@
+INFO     logger:test_cases.py:9 setup
+INFO     logger:test_cases.py:21 开始登录
+INFO     logger:common.py:16 检查是否有取消按钮
+INFO     logger:common.py:22 点击取消按钮
+INFO     logger:common.py:26 检查是否有跳过按钮
+INFO     logger:common.py:33 点击跳过按钮
+INFO     logger:login.py:33 找到断言元素，元素的文本为：验证失败次数过多，请15分钟后再试
+INFO     logger:test_cases.py:14 teardown

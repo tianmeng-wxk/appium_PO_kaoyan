@@ -1,0 +1,12 @@
+2020-07-29 22:56:47 test_cases.py INFO setup
+2020-07-29 22:56:57 test_cases.py INFO 开始登录
+2020-07-29 22:57:14 login.py INFO 未找到元素
+2020-07-29 22:57:14 test_cases.py INFO teardown
+2020-07-29 22:57:15 test_cases.py INFO setup
+2020-07-29 22:57:25 test_cases.py INFO 开始登录
+2020-07-29 22:57:40 login.py INFO 未找到元素
+2020-07-29 22:57:40 test_cases.py INFO teardown
+2020-07-29 22:57:42 test_cases.py INFO setup
+2020-07-29 22:57:51 test_cases.py INFO 开始登录
+2020-07-29 22:58:12 login.py INFO 未找到元素
+2020-07-29 22:58:12 test_cases.py INFO teardown

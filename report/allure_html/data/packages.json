@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "test_case.test_cases",
+    "children" : [ {
+      "name" : "test_login01[小可爱-trr123456]",
+      "uid" : "6c07a013bc7c249",
+      "parentUid" : "eb9a0848ade0a74eb99a6b4b7d6baf8f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1596046724875,
+        "stop" : 1596046734593,
+        "duration" : 9718
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'trr123456'", "'小可爱'" ]
+    }, {
+      "name" : "test_login01[tianmeng-123456]",
+      "uid" : "feb6cdde6a17f51b",
+      "parentUid" : "eb9a0848ade0a74eb99a6b4b7d6baf8f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1596046746543,
+        "stop" : 1596046756182,
+        "duration" : 9639
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "123456", "'tianmeng'" ]
+    } ],
+    "uid" : "test_case.test_cases"
+  } ]
+}
