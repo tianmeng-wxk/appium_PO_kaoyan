@@ -1,5 +1,7 @@
 from base_page.base_page import BasePage
 from selenium.common.exceptions import NoSuchElementException
+from appium.webdriver.common.touch_action import TouchAction
+from appium.webdriver.common.multi_action import MultiAction
 from init.init import start_app
 from selenium.webdriver.common.by import By
 from log.log import Logger
@@ -35,6 +37,68 @@ class Common(BasePage):
         else:
             skip.click()
             Logger().log().info("点击跳过按钮")
+
+    def size(self):
+        x = self.driver.get_window_size()['width']
+        y = self.driver.get_window_size()['height']
+        return x, y
+
+    def slide(self, x1, y1, x2, y2):
+        size = Common(self.driver).size()
+        x1 = int(size[0]*x1)
+        y1 = int(size[1]*y1)
+        x2 = int(size[0]*x2)
+        y2 = int(size[1]*y2)
+        self.driver.swipe(x1, y1, x2, y2, 1000)
+
+    # def left_slip(self):
+    #     size = Common(self.driver).size()
+    #     x1 = int(size[0]*0.9)
+    #     x2 = int(size[0]*0.1)
+    #     y = int(size[1]*0.5)
+    #     self.driver.swipe(x1, y, x2, y, 1000)
+    #
+    # def right_slip(self):
+    #     size = Common(self.driver).size()
+    #     x1 = int(size[0]*0.1)
+    #     x2 = int(size[0]*0.9)
+    #     y = int(size[1]*0.5)
+    #     self.driver.swipe(x1, y, x2, y, 1000)
+    #
+    # def up_slip(self):
+    #     size = Common(self.driver).size()
+    #     x = int(size[0]*0.5)
+    #     y1 = int(size[1]*0.9)
+    #     y2 = int(size[1]*0.1)
+    #     self.driver.swipe(x, y1, x, y2, 1000)
+    #
+    # def down_slip(self):
+    #     size = Common(self.driver).size()
+    #     x = int(size[0]*0.5)
+    #     y1 = int(size[1]*0.1)
+    #     y2 = int(size[1]*0.9)
+    #     self.driver.swipe(x, y1, x, y2, 1000)
+
+    #连续滑动解锁
+    def slide_unlock(self):
+        TouchAction(self.driver)\
+            .press(x=246, y=376).wait(2000) \
+            .move_to(x=451, y=385).wait(1000) \
+            .move_to(x=644, y=584).wait(1000) \
+            .move_to(x=661, y=774).wait(1000) \
+            .release().perform()
+
+
+    def zoom(self, x1, y1, x2, y2, a1, b1, a2, b2):
+        size = Common(self.driver).size()
+        action1 = TouchAction(self.driver)
+        action2 = TouchAction(self.driver)
+        zoom_action = MultiAction(self.driver)
+        action1.press(x=size[0] * x1, y=size[1] * y1).wait(1000).move_to(x=size[0] * x2, y=size[1] * y2).wait(1000).release()
+        action2.press(x=size[0] * a1, y=size[1] * b1).wait(1000).move_to(x=size[0] * a2, y=size[1] * b2).wait(1000).release()
+
+        zoom_action.add(action1, action2)
+        zoom_action.perform()
 
 #发送邮件
 def send_email(email_path):
