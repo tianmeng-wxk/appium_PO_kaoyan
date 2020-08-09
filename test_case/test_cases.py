@@ -1,7 +1,7 @@
 import pytest
 from page_object.login import Login
 from init.init import start_app
-from common.common import read_excel,send_email
+from common.common import read_excel
 from log.log import Logger
 data = read_excel('../config/login.xlsx','Sheet1')
 class TestCase():
@@ -21,8 +21,6 @@ class TestCase():
 
     def teardown_class(self):
         Logger().log().info("执行类的后置条件teardown_class")
-        # 发送邮件
-        send_email('../report/pytest_report.html')
 
 
 
