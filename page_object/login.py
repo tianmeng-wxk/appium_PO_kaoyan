@@ -8,6 +8,7 @@ class Login(Common):
     uname = (By.ID,'com.tal.kaoyan:id/login_email_edittext')
     upwd = (By.ID,'com.tal.kaoyan:id/login_password_edittext')
     loginbt = (By.ID,'com.tal.kaoyan:id/login_login_btn')
+    regis = (By.ID,'com.tal.kaoyan:id/login_register_text')
 
     def login(self,username,password):
         self.cance()

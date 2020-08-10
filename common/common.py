@@ -10,7 +10,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.header import Header
 
-
+from openpyxl import load_workbook
 import openpyxl
 class Common(BasePage):
     #取消按钮
@@ -156,34 +156,54 @@ def send_mail(email_path):
         Logger().log().info("发送邮件失败，失败信息：{}".format(e))
 
 
-# openpyxl加载excel
-def load_excel(excel_path):
-    global excel
-    excel = openpyxl.load_workbook(excel_path)
-    return excel
-
-# openpyxl加载sheet
-def load_sheet(sheet_name):
-    sheet = excel[sheet_name]
-    return sheet
+# # openpyxl加载excel
+# def load_excel(excel_path):
+#     global excel
+#     excel = openpyxl.load_workbook(excel_path)
+#     return excel
+#
+# # openpyxl加载sheet
+# def load_sheet(sheet_name):
+#     sheet = excel[sheet_name]
+#     return sheet
 
 # openpyxl读取数据
-def read_excel(excel_path, sheet_name):
-    excel = load_excel(excel_path)
-    sheet = load_sheet(sheet_name)
-    l = []
-    for i in range(2, sheet.max_row + 1):
-        data = []
-        arg1 = sheet.cell(i, 1).value
-        arg2 = sheet.cell(i, 2).value
-        #arg3 = sheet.cell(i, 3).value
-        data.append(arg1)
-        data.append(arg2)
-        #data.append(arg3)
-        l.append(data)
-    return l
+# def read_excel(excel_path, sheet_name):
+#     excel = load_excel(excel_path)
+#     sheet = load_sheet(sheet_name)
+#     l = []
+#     for i in range(2, sheet.max_row + 1):
+#         data = []
+#         arg1 = sheet.cell(i, 1).value
+#         arg2 = sheet.cell(i, 2).value
+#         arg3 = sheet.cell(i, 3).value
+#         data.append(arg1)
+#         data.append(arg2)
+#         data.append(arg3)
+#         l.append(data)
+#     return l
 
-
+class excelData:
+    def excel_data(self,excel_path,sheet_name):
+        #取workbook
+        workbook=load_workbook(excel_path)
+        #取sheet
+        sheet=workbook[sheet_name]
+        #定义外层的list结构
+        lists=[]
+        #读取rows
+        row_sheet=sheet.iter_rows()
+        #循环读取每一行，需要赋值每一行为一个list
+        for item in row_sheet:
+            #如果取到第一行就跳出去直接取下一行
+            if item[0].value == "username":
+                continue
+            list=[]
+            for col in item:
+                list.append(col.value)
+            lists.append(list)
+        print(lists)
+        return lists
 if __name__ == '__main__':
     driver = start_app()
     com = Common(driver)

@@ -3,7 +3,7 @@ import unittest,os,time
 from test_case.test_cases import TestCase
 from datetime import datetime
 from common.common import send_mail,send_email
-#curPath = os.path.abspath(os.path.dirname(__file__))
+
 
 # path = curPath+"../../test_case"
 # discover = unittest.defaultTestLoader.discover(start_dir=path, pattern="read_*.py")#在path目录下运行以read开头的文件,运行discover
