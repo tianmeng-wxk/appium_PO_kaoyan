@@ -1,9 +1,10 @@
 from HTMLTestRunner import HTMLTestRunner
-import unittest,os,time
+import unittest,os,sys,time
 from test_case.test_cases import TestCase
 from datetime import datetime
 from common.common import send_mail,send_email
-
+path = 'D:\\appium_PO_kaoyan\\'
+sys.path.append(path)
 
 # path = curPath+"../../test_case"
 # discover = unittest.defaultTestLoader.discover(start_dir=path, pattern="read_*.py")#在path目录下运行以read开头的文件,运行discover

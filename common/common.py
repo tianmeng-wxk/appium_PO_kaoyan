@@ -134,7 +134,7 @@ def send_email(email_path):
     except smtplib.SMTPException as e:
         Logger().log().info("发送邮件失败，失败信息：{}".format(e))
 
-#发送html格式邮件（需要修改报告源码）
+#发送html格式邮件
 def send_mail(email_path):
     with open(email_path, 'rb') as f:
         content = f.read()
