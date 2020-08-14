@@ -1,10 +1,11 @@
 from HTMLTestRunner import HTMLTestRunner
 import unittest,os,sys,time
+path = '../../appium_PO_kaoyan'
+sys.path.append(path)
 from test_case.test_cases import TestCase
 from datetime import datetime
 from common.common import send_mail,send_email
-path = 'D:\\appium_PO_kaoyan\\'
-sys.path.append(path)
+
 
 # path = curPath+"../../test_case"
 # discover = unittest.defaultTestLoader.discover(start_dir=path, pattern="read_*.py")#在path目录下运行以read开头的文件,运行discover
@@ -16,7 +17,7 @@ def suite():
     #report_file = report_path+"{}_html_report.html".format(time.strftime("%Y_%m_%d %H-%M-%S",time.localtime()))
     time = datetime.now()
     now = time.strftime('%Y-%m-%d  %H-%M-%S')
-    report_file = report_path + now + "_html_report.html"
+    report_file = report_path + now + "_htmltestrunner_report.html"
     if not os.path.exists(report_path):
         os.mkdir(report_path)
     else:

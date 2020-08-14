@@ -1,10 +1,12 @@
-import pytest,os,time
+import pytest,os,time,sys
+path = '../../appium_PO_kaoyan'
+sys.path.append(path)
 from common.common import send_email,send_mail
 
 if __name__ == '__main__':
     #生成pytest-html报告
     report_path = "../report/"
-    report_file = report_path+"{}_py_html_report.html".format(time.strftime("%Y_%m_%d  %H-%M-%S",time.localtime()))
+    report_file = report_path+"{}_pytest_html_report.html".format(time.strftime("%Y_%m_%d  %H-%M-%S",time.localtime()))
     if not os.path.exists(report_path):
         os.mkdir(report_path)
     else:
