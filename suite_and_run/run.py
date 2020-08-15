@@ -1,5 +1,5 @@
 import pytest,os,time,sys
-path = '../../appium_PO_kaoyan'
+path = 'D:\\appium_PO_kaoyan\\'
 sys.path.append(path)
 from common.common import send_email,send_mail
 
