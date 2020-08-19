@@ -1,0 +1,8 @@
+2020-08-19 13:54:07 test_cases.py INFO 开始执行前置条件setup
+2020-08-19 13:54:07 test_cases.py INFO 正在打开app...
+2020-08-19 13:54:17 common.py INFO 检查是否有取消按钮
+2020-08-19 13:54:23 common.py INFO 没有取消按钮
+2020-08-19 13:54:23 common.py INFO 检查是否有跳过按钮
+2020-08-19 13:54:23 common.py INFO 点击跳过按钮
+2020-08-19 13:54:23 login.py INFO 开始登录
+2020-08-19 13:54:25 login.py INFO 结束登录

@@ -1,6 +1,6 @@
 from HTMLTestRunner import HTMLTestRunner
 import unittest,os,sys,time
-path = '../../appium_PO_kaoyan'
+path = 'E:\\脚本\\appium_PO_kaoyan'
 sys.path.append(path)
 from test_case.test_cases import TestCase
 from datetime import datetime

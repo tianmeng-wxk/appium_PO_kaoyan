@@ -1,6 +1,6 @@
 import pytest,os,time,sys
 #添加路径
-path = 'D:\\appium_PO_kaoyan\\'
+path = 'E:\\脚本\\appium_PO_kaoyan'
 sys.path.append(path)
 from common.common import send_email,send_mail
 
@@ -12,7 +12,7 @@ if __name__ == '__main__':
         os.mkdir(report_path)
     else:
         pass
-    pytest.main(["-s", "-vv", "../test_case/test_cases.py", "--html="+report_file])
+    pytest.main(["-s", "-v", "../test_case/test_cases.py", "--html="+report_file])
     #发送邮件
     send_mail(report_file)
 
