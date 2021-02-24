@@ -13,6 +13,7 @@ class TestCase():
         Logger().log().info("开始执行前置条件setup")#对日志配置文件还不熟，使用的还是原来的日志形式
         Logger().log().info("正在打开app...")
         self.driver = start_app()
+        self.driver.implicitly_wait(10)
         self.lp = Login(self.driver)
         self.rp = Register(self.driver)
 

@@ -1,6 +1,6 @@
 import pytest,os,time,sys
 #添加路径
-path = 'E:\\脚本\\appium_PO_kaoyan'
+path = 'E:\\script\\appium_PO_kaoyan'
 sys.path.append(path)
 from common.common import send_email,send_mail
 
